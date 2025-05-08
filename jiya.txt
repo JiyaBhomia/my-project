@@ -1,0 +1,16 @@
+npm install react-router-dom
+npm install react-icons
+npm install firebase
+npm install jspdf
+npm install emailjs-com
+
+
+
+//host
+npm install -g firebase-tools
+firebase login
+firebase init hosting
+npm run build
+firebase deploy
+
+Thereby certify that [student name] attends this school for the purpose of receiving education, the institution of which I am the Principal(Head Master and his/her age this day, according to my belief and from enquiries I have made, is entered in the School Register being........years...... months, his/her date of birth as entered in school register being [date of birth] He/She is therefore, entitled to the Season Ticket as detailed below at half the full rates charged for adults :-
