@@ -1,0 +1,43 @@
+.validate-container {
+    padding: 20px;
+    background: #ccc;
+  }
+  
+  .concession-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: white;
+    flex-wrap: nowrap; /* Prevents wrapping */
+    overflow-x: auto;  /* Adds scroll if content overflows */
+  }
+  
+  .concession-info {
+    flex: 1;
+    white-space: nowrap;
+  }
+  
+  .status-select {
+    flex-shrink: 0;
+  }
+  
+  .confirm-btn,
+  .view-image-btn {
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  
+  .confirm-btn:hover,
+  .view-image-btn:hover {
+    background-color: #0056b3;
+  }
+  

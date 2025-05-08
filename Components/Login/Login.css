@@ -1,0 +1,210 @@
+.wrapper{
+    position: relative;
+    width: 420px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    transition: height .2s ease;
+}
+
+.welcome-text {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    /* color: #ffffff; */
+    color: black !important;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 40px;  
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+
+.wrapper .form-box{
+    width: 100%;
+    padding: 40px;
+}
+
+form h1{
+    font-size: 36px;
+    text-align: center;
+    color: #000;
+}
+
+form .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    background: transparent;
+}
+
+/* form .input-box {
+    width: 90%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .1);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+  } */
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* Light background */
+    /* background: transparent; */
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black; /* Text color remains white */
+    padding: 20px 45px 20px 20px;
+    /* transition: background 0.3s ease; */
+}
+
+.input-box input:-webkit-autofill,
+.input-box input:-webkit-autofill:hover,
+.input-box input:-webkit-autofill:focus,
+.input-box input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.2) inset !important;
+  -webkit-text-fill-color: black !important;
+  color: black !important;
+  caret-color: black;
+  transition: background-color 0s ease-in-out 0s;
+}
+
+input:-moz-autofill {
+    box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.2) inset !important;
+    -moz-text-fill-color: black !important;
+    color: black !important;
+  }
+  
+
+/* Optional: Keep same background on focus */
+.input-box input:focus {
+    background: rgba(255, 255, 255, 0.2);
+    color: black;
+  }
+  
+
+.input-box input::placeholder{
+    color: black !important;
+    opacity: 1;
+    background: transparent;
+    text-align: left;
+}
+
+/* .input-box input::placeholder {
+    color: black !important;
+    opacity: 1;
+  }
+  
+  .input-box input::-webkit-input-placeholder {
+    color: black !important;
+  }
+  
+  .input-box input::-moz-placeholder {
+    color: black !important;
+  }
+  
+  .input-box input:-ms-input-placeholder {
+    color: black !important;
+  }
+  
+  .input-box input:-moz-placeholder {
+    color: black !important;
+  } */
+  
+.input-box .icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    translate: 0 -50%;
+    font-size: 16px;
+    color: #000;
+}
+
+form .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px ;
+    margin: -15px 10px 15px;
+}
+
+.remember-forgot label input{
+    accent-color: #000;
+    margin-right: 4px;
+}
+
+.remember-forgot a{
+    color: #000;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+form button{
+    width: 100%;
+    height: 45px;
+    background: #007bff !important;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff !important;
+    /* color: #333; */
+    font-weight: 700;
+    transition: background 0.3s;
+}
+
+.toggle-box {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.toggle-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.toggle-btn:hover {
+    background-color: #0056b3;
+}
+
+.forgot-link {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.forgot-link:hover {
+    color: #ffaa00;
+}
+

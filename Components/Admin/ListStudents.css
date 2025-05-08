@@ -1,0 +1,47 @@
+.list-container {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.search-box {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.student-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.student-table th, .student-table td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+.student-table th {
+    background: #007bff;
+    color: white;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background: darkred;
+}
